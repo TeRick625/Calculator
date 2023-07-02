@@ -1,0 +1,72 @@
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\bin\Debug\Calculator_WPF.exe.config
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\bin\Debug\Calculator_WPF.exe
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\bin\Debug\Calculator_WPF.pdb
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.cache
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.lref
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\MainWindow.baml
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.g.resources
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.Properties.Resources.resources
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.exe
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\Calculator_WPF.pdb
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\App.baml
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\IphoneTheme.baml
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\LiteTheme.baml
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\WindowsTheme.baml
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\AboutProgramWindow.g.cs
+C:\Users\admin\source\repos\Calculator_WPF\Calculator_WPF\obj\Debug\AboutProgramWindow.baml
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\bin\Debug\Calculator_WPF.exe.config
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\bin\Debug\Calculator_WPF.exe
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\bin\Debug\Calculator_WPF.pdb
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.AssemblyReference.cache
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\App.g.cs
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.cache
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.lref
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\App.baml
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\IphoneTheme.baml
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\MainWindow.baml
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.g.resources
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.Properties.Resources.resources
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.GenerateResource.cache
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.exe
+C:\Users\Домашний\Desktop\calculator-wpf-main\Calculator_WPF\obj\Debug\Calculator_WPF.pdb
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csprojAssemblyReference.cache
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\App.g.cs
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.cache
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.lref
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.exe
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.pdb
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.exe.config
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.exe
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.pdb
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\App.baml
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\IphoneTheme.baml
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\MainWindow.baml
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.g.resources
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.Properties.Resources.resources
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.GenerateResource.cache
+C:\Users\Маргарита\Desktop\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.exe.config
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.exe
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\bin\Debug\Calculator_WPF.pdb
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.AssemblyReference.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\App.g.cs
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF_MarkupCompile.lref
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\MainWindow.baml
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.g.resources
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.Properties.Resources.resources
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.GenerateResource.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.exe
+C:\Users\Домашний\Desktop\КАЛЬКИ (с арс рабочие)\calculator-ARS\Calculator_WPF\obj\Debug\Calculator_WPF.pdb

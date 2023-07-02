@@ -1,0 +1,147 @@
+﻿<Window x:Class="Calculator_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator_WPF"
+        mc:Ignorable="d"
+        Title="Calculator_WPF" MinHeight="508" MinWidth="334" Height="508" Width="334">
+    <Window.Resources>
+        <Style x:Key="btnDefault" TargetType="Button">
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#1F1F1F"/>
+            <Setter Property="Foreground" Value="#1F1F1F"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontWeight" Value="Thin"/>
+        </Style>
+        <Style x:Key="btnNumber" TargetType="Button" BasedOn="{StaticResource btnDefault}">
+            <Setter Property="Background" Value="#D7D7DB"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+        </Style>
+        <Style x:Key="btnOperation" TargetType="Button" BasedOn="{StaticResource btnDefault}">
+            <Setter Property="Background" Value="#C7C6CB"/>
+            <Setter Property="FontWeight" Value="Thin"/>
+        </Style>
+        <Style x:Key="btnOperationEqual" TargetType="Button" BasedOn="{StaticResource btnDefault}">
+            <Setter Property="Background" Value="#F98D13"/>
+            <Setter Property="FontWeight" Value="Thin"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#0078D7"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#499DDF"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#1F1F1F"/>
+            <Setter Property="BorderBrush" Value="#1F1F1F"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Foreground" Value="#FFF"/>
+            <Setter Property="FontSize" Value="59"/>
+            <Setter Property="FontWeight" Value="DemiBold"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Right"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+        </Style>
+        <Style TargetType="Menu">
+            <Setter Property="Background" Value="#C7C6CB"/>
+            <Setter Property="Foreground" Value="#1F1F1F"/>
+        </Style>
+        <Style TargetType="MenuItem">
+            <Setter Property="Background" Value="#C7C6CB"/>
+            <Setter Property="Foreground" Value="#1F1F1F"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="#1F1F1F" Margin="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu Grid.ColumnSpan="4" Grid.Row="0" Grid.Column="0">
+        </Menu>
+
+        <!--1-2 ROW-->
+        <TextBox Name="tbResult" Text="0" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="0,0,0,10"/>
+        <Label Name="lLog"  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Foreground="#fff"  FontSize="17" />
+        <Label Name="lMem" HorizontalContentAlignment="Right" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Foreground="#fff"  FontSize="17" />
+
+        <Grid Name="grid_Calc" Grid.Column="0" Grid.Row="3" Grid.RowSpan="6" Grid.ColumnSpan="4" Visibility="Visible">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <!--0 ROW-->
+            <Button Name="btn_FuncPrecent" Content="%" Grid.Column="0" Grid.Row="0"      Style="{StaticResource btnOperation}" Click="Btn_FuncPrecent_Click"/>
+            <Button Name="btn_FuncClear" Content="CE" Grid.Column="1" Grid.Row="0" Background="Red" Style="{StaticResource btnOperation}" Click="Btn_FuncClear_Click"/>
+            <Button Name="btn_FuncClearAll" Content="C" Grid.Column="2" Grid.Row="0"      Style="{StaticResource btnOperation}" Click="Btn_FuncClearAll_Click"/>
+            <Button Name="btn_FuncDel" Content="DEL" Grid.Column="3" Grid.Row="0"    Style="{StaticResource btnOperation}" Click="Btn_FuncDel_Click"/>
+
+            <!--1 ROW-->
+            <Button Name="btn_FuncMS"   Content="MS" Grid.Column="0" Grid.Row="1" Margin="40,0,0,0" Background="Azure"  Style="{StaticResource btnOperation}" Click="btn_FuncMS_Click" />
+            <Button Name="btn_FuncMC"   Content="MC" Grid.Column="0" Grid.Row="1" Margin="0,0,40,0" Background="Azure" Style="{StaticResource btnOperation}" Click="btn_FuncMC_Click" />
+            <Button Name="btn_FuncMW"   Content="MW" Grid.Column="1" Grid.Row="1" Background="Azure" Style="{StaticResource btnOperation}" Click="btn_FuncMW_Click"/>
+            <Button Name="btn_FuncMP"   Content="M+" Grid.Row="1" Margin="40,0,0,0" Grid.Column="2" Background="Azure" Style="{StaticResource btnOperation}" Click="btn_FuncMP_Click" />
+            <Button Name="btn_FuncMM"   Content="M-" Grid.Row="1" Margin="0,0,40,0" Grid.Column="2" Background="Azure" Style="{StaticResource btnOperation}"  Click="btn_FuncMM_Click" />
+
+
+            <Button Name="btn_FuncModul" Content="|x|" Grid.Column="3" Grid.Row="1" Style="{StaticResource btnOperation}" Click="Btn_FuncModul_Click"/>
+
+            <!--2 ROW-->
+            <Button Name="btn_Func1SplitX" Content="1/x" Grid.Column="0" Grid.Row="2"  Style="{StaticResource btnOperation}" Click="Btn_Func1SplitX_Click"/>
+            <Button Name="btn_FuncPowX" Content="x^2" Grid.Column="1" Grid.Row="2"  Style="{StaticResource btnOperation}" Click="Btn_FuncPowX_Click"/>
+            <Button Name="btn_FuncSqrtX" Content="&#8730;x" Grid.Column="2" Grid.Row="2"    Style="{StaticResource btnOperation}" Click="Btn_FuncSqrtX_Click"/>
+            <Button Name="btn_FuncSplit" Content="&#247;" Grid.Column="3" Grid.Row="2"    Style="{StaticResource btnOperation}" Click="Btn_FuncSplit_Click"/>
+
+            <!--3 ROW-->
+            <Button Name="btn_Number7" Content="7" Grid.Column="0" Grid.Row="3"        Style="{StaticResource btnNumber}" Click="Btn_Number7_Click"/>
+            <Button Name="btn_Number8" Content="8" Grid.Column="1" Grid.Row="3"        Style="{StaticResource btnNumber}" Click="Btn_Number8_Click"/>
+            <Button Name="btn_Number9" Content="9" Grid.Column="2" Grid.Row="3"          Style="{StaticResource btnNumber}" Click="Btn_Number9_Click"/>
+            <Button Name="btn_FuncMultiply" Content="&#215;" Grid.Column="3" Grid.Row="3"     Style="{StaticResource btnOperation}" Click="Btn_FuncMultiply_Click"/>
+            <!--4 ROW-->
+            <Button Name="btn_Number4" Content="4" Grid.Column="0" Grid.Row="4"        Style="{StaticResource btnNumber}" Click="Btn_Number4_Click"/>
+            <Button Name="btn_Number5" Content="5" Grid.Column="1" Grid.Row="4"        Style="{StaticResource btnNumber}" Click="Btn_Number5_Click"/>
+            <Button Name="btn_Number6" Content="6" Grid.Column="2" Grid.Row="4"          Style="{StaticResource btnNumber}" Click="Btn_Number6_Click"/>
+            <Button Name="btn_FuncMinus" Content="&#8722;" Grid.Column="3" Grid.Row="4"     Style="{StaticResource btnOperation}" Click="Btn_FuncMinus_Click"/>
+
+            <!--5 ROW-->
+            <Button Name="btn_Number1"  Content="1" Grid.Column="0" Grid.Row="5"        Style="{StaticResource btnNumber}" Click="Btn_Number1_Click"/>
+            <Button Name="btn_Number2"  Content="2" Grid.Column="1" Grid.Row="5"        Style="{StaticResource btnNumber}" Click="Btn_Number2_Click"/>
+            <Button Name="btn_Number3"  Content="3" Grid.Column="2" Grid.Row="5"          Style="{StaticResource btnNumber}" Click="Btn_Number3_Click"/>
+            <Button Name="btn_FuncPlus" Content="&#43;" Grid.Column="3" Grid.Row="5"     Style="{StaticResource btnOperation}" Click="Btn_FuncPlus_Click"/>
+
+            <!--6 ROW -->
+            <Button Name="btn_NumberInversion" Content="&#177;" Grid.Column="0" Grid.Row="6"        Style="{StaticResource btnNumber}" Click="Btn_NumberInversion_Click"/>
+            <Button Name="btn_Number0" Content="0" Grid.Column="1" Grid.Row="6"        Style="{StaticResource btnNumber}" Click="Btn_Number0_Click"/>
+            <Button Name="btn_NumberPoint" Content="," Grid.Column="2" Grid.Row="6"          Style="{StaticResource btnNumber}" Click="Btn_NumberPoint_Click"/>
+            <Button Name="btn_FuncEquals" Content="=" Grid.Column="3" Grid.Row="6"     Style="{StaticResource btnOperationEqual}" Click="Btn_FuncEquals_Click"/>
+        </Grid>
+    </Grid>
+</Window>
